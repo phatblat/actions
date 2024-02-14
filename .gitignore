@@ -26,5 +26,6 @@ heapdump.*.phd
 javacore.*.txt
 obj/
 packages/
+secrets.yml
 target/
 xcuserdata
