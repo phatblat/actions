@@ -1,3 +1,4 @@
+name: Test Workflow Dispatch
 on:
   workflow_dispatch:
     inputs:
@@ -8,3 +9,7 @@ on:
         description: "Why are you running this workflow manually?"
         required: true
         default: "I am running tests before implementing an automated workflow"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
