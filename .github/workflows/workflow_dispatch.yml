@@ -13,3 +13,7 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
+    steps:
+      - name: Hello world
+        run: |
+          true
